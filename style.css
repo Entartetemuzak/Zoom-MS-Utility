@@ -407,11 +407,11 @@ tr:nth-child(even) .pnam {
 }
 
 .eficon.exist {
-    background: #c33;
+    background: rgb(255, 107, 0);
 }
 
 .eficon.exist.on {
-    background: #faa;
+    background: rgb(61, 255, 0);
 }
 
 #patches div:hover {
@@ -492,8 +492,9 @@ tr:nth-child(even) .pnam {
 
 #effects td div div input {
     display: none;
-    background: #446;
-    color: #ffd;
+    background: #ffd;
+    border: 1px solid rgba(32,32,32,.8);
+    color: #111;
     width: 55px;
     height: 12px;
     margin: 2px 0 0 0;
@@ -575,6 +576,7 @@ tr:nth-child(even) .pnam {
 
 .pcell {
     display: flex;
+    color: #fff;
     font-size: 12px;
     font-weight: bold;
     height: 38px;

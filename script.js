@@ -3769,7 +3769,7 @@ function DispPatch(patch){
   if(typeof(patch)=="undefined")
     patch=currentpatch;
   efmax=(midiif.devid==0x5f)?4:6;
-  dspgraph.style.height=42*efmax+"px";
+  dspgraph.style.height=41*efmax+"px";
   var dspsum=0;
   for(n=0;n<efmax;++n){
     var id=patches[patch].GetEffectId(n);
