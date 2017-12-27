@@ -85,19 +85,19 @@ hr {
     border: 1px solid #171717;
     border-radius: 5px;
     color: #fff;
-    text-align: center;
-    background-color: rgba(32,32,32,.98);
+    text-align: left;
+    background-color: rgba(102,102,102,.98);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    font-size: 14px;
+    font-size: .8rem;
     font-weight: normal;
 }
 
 .popup > li {
-    background-color: rgba(52,52,52,.95);
+    background-color: rgba(102,102,102,.95);
     text-decoration: none;
     margin: 0;
     padding: 5px 0;
-    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-bottom: 1px solid rgba(255,255,255,.2);
 }
 .popup > li.newSection {
     background-color: rgba(255,255,255,.2);
@@ -337,10 +337,11 @@ img {
 
 #patchesbase {
     position: absolute;
-    left: 320px;
+    left: 316px;
     top: 90px;
     width: 800px;
-    background-color: rgb(52,52,52);
+    background: linear-gradient(#a0b0d0,#9caccc);
+    border: 2px inset rgba(32,32,32,.8);
     padding: 5px 0;
     margin: 0 15px 0 auto;
 }
@@ -388,11 +389,11 @@ img {
 }
 
 tr:nth-child(odd) .pnam {
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.3);
 }
 
 tr:nth-child(even) .pnam {
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(255,255,255,.4);
 }
 
 .eficon {
@@ -477,11 +478,11 @@ tr:nth-child(even) .pnam {
 }
 
 #effects tr:nth-child(odd) td {
-    background-color: rgb(42,42,42);
+    background-color: rgb(255,255,255,.7);
 }
 
 #effects tr:nth-child(odd) tr {
-    background-color: rgb(52,52,52);
+    background-color: rgb(255,255,255,.6);
 }
 
 #effects td div {}
@@ -493,7 +494,7 @@ tr:nth-child(even) .pnam {
 #effects td div div input {
     display: none;
     background: #ffd;
-    border: 1px solid rgba(32,32,32,.8);
+    border: 2px inset rgba(32,32,32,.1);
     color: #111;
     width: 55px;
     height: 12px;
@@ -519,7 +520,7 @@ tr:nth-child(even) .pnam {
     text-align: center;
     background: linear-gradient(#822, #400);
     color: #fcc;
-    width: 140px;
+    width: 120px;
     box-sizing: border-box;
     vertical-align: middle;
     position: relative;
@@ -535,6 +536,7 @@ tr:nth-child(even) .pnam {
     position: absolute;
     bottom: 4px;
     right: 4px;
+    font-size: .8rem;
 }
 
 #effects .fnam.drag {
@@ -576,7 +578,7 @@ tr:nth-child(even) .pnam {
 
 .pcell {
     display: flex;
-    color: #fff;
+    color: #111;
     font-size: 12px;
     font-weight: bold;
     height: 38px;
@@ -584,6 +586,7 @@ tr:nth-child(even) .pnam {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .pfocus {
