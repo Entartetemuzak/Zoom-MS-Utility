@@ -3996,7 +3996,7 @@ function AutoSave(){
     }
     else{
       btn.style.background="";
-      btn.style.color="#000";
+      btn.style.color="";
       document.getElementById("devsavebtn").disabled=false;
       autosave=0;
     }
@@ -4012,7 +4012,7 @@ function Tuner(){
   }
   else{
     btn.style.background="";
-    btn.style.color="#000";
+    btn.style.color="";
     midiif.Send([0xb0,0x4a,0x00]);
   }
 }
@@ -4321,6 +4321,8 @@ function ImportText(){
   };
 }
 function ShowDoc(x) {
+    var docPanel = document.getElementById("usagepanel");
+    docPanel.setAttribute("class", x);
 	var divs=document.getElementsByTagName("div");
 	var t="doc_"+x;
 	for(var i=0;i<divs.length;++i) {
