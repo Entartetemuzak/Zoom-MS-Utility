@@ -378,7 +378,7 @@ img {
     margin: 0;
     padding: 0;
     padding: 1px 3px 1px 8px;
-    color: #111;
+    color: rgba(0,0,0,.8);
     height: 20px;
     width: 120px;
     font-size: 14px;
@@ -405,6 +405,7 @@ tr:nth-child(even) .pnam {
     position: absolute;
     right: 0;
     bottom: 1px;
+    margin-right: 2px;
 }
 
 .eficon.exist {
