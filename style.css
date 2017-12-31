@@ -543,34 +543,38 @@ tr:nth-child(even) .pnam {
     right: 4px;
     font-size: .8rem;
 }
+#effects tr td.fnam {
+    background-color: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.4);
+}
 
-#effects .fnam.drag {
+#effects tr td.fnam.drag {
     opacity: 0.5;
 }
 
-#effects .fnam.overup {
+#effects tr td.fnam.overup {
     border-top: 4px solid #fff;
 }
 
-#effects .fnam.overdown {
+#effects tr td.fnam.overdown {
     border-bottom: 4px solid #fff;
 }
 
-#effects .fnam.press {
+#effects tr td.fnam.press {
     background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6));
     color: #fff;
 }
 
-#effects .fnam.press:hover {
+#effects tr td.fnam.press:hover {
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.5));
     color: #fff;
 }
 
-#effects .fnam.thru {
+#effects tr td.fnam.thru {
     background: rgba(0,0,0,.1);
 }
 
-#effects .fnam.thru .ftxt {
+#effects tr td.fnam.thru .ftxt {
     color: rgba(255,255,255,.3);
 }
 
