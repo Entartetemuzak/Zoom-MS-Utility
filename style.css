@@ -435,7 +435,7 @@ tr:nth-child(even) .pnam {
 #dspgraph {
     position: absolute;
     left: 20px;
-    top: 347px;
+    top: 346px;
     width: 7px;
     height: 0;
     display: inline-block;
