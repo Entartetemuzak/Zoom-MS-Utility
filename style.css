@@ -397,7 +397,7 @@ tr:nth-child(even) .pnam {
 }
 
 .eficon {
-    border: 1px inset rgba(0,0,0,.1);
+    border: 1px inset rgba(255,255,255,.2);
     width: 3px;
     padding: 0;
     height: 3px;
@@ -414,6 +414,7 @@ tr:nth-child(even) .pnam {
 
 .eficon.exist.on {
     background: rgb(61, 255, 0);
+    border: 1px inset rgba(0,0,0,.1);
 }
 
 #patches div:hover {
