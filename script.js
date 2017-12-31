@@ -2899,7 +2899,7 @@ function Init(){
     var cell=document.getElementById((i+1)+"nam");
     for(var f=0;f<6;++f){
       var c=document.createElement("div");
-      c.setAttribute("style","right:"+(f*5)+"px");
+      c.setAttribute("style","right:"+(f*7)+"px");
       c.id=(i+1)+"_"+(f+1);
       c.setAttribute("class","eficon");
       cell.parentNode.appendChild(c);

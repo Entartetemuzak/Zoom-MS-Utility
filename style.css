@@ -397,10 +397,10 @@ tr:nth-child(even) .pnam {
 }
 
 .eficon {
-    border: none;
+    border: 1px inset rgba(0,0,0,.1);
     width: 3px;
     padding: 0;
-    height: 5px;
+    height: 3px;
     background-color: rgba(12,12,12,.7);
     position: absolute;
     right: 0;
