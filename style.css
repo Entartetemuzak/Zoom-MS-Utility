@@ -648,7 +648,7 @@ webaudio-switch {
     display: inline-block;
     position: relative;
     border-radius: 3px;
-    border: 1px solid #668;
+    border: 1px solid #888;
     width: 80px;
     height: 84px;
     padding: 0;
@@ -660,8 +660,7 @@ webaudio-switch {
     background: linear-gradient(#dde, #bbc);
 }
 
-.efitem.notinstall,
-.efitem.install:hover {
+.efitem.notinstall {
     background: none;
     background-color: rgb(82,82,82);
     color: #aaa;
@@ -673,8 +672,7 @@ webaudio-switch {
     opacity: .5;
 }
 
-.efitem.notinstall .dspbar,
-.efitem.install:hover .dspbar {
+.efitem.notinstall .dspbar {
     filter: grayscale(100%);
 }
 
@@ -685,8 +683,12 @@ webaudio-switch {
 .efitem.install,
 .efitem.notinstall:hover {
     background: none;
-    background-color: #ddd;
+    background-color: #ccc;
     color: #111;
+}
+
+.efitem.install:hover {
+    background-color: #ddd;
 }
 
 .efitem.notinstall:hover img {
