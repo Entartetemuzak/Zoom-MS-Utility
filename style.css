@@ -666,8 +666,7 @@ webaudio-switch {
     color: #aaa;
 }
 
-.efitem.notinstall img,
-.efitem.install:hover img {
+.efitem.notinstall img {
     filter: grayscale(100%) invert(100%);
     opacity: .5;
 }
